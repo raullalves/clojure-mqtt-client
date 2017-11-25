@@ -4,7 +4,7 @@ Clojure MQTT client for hackaton
 
 ## Installation
 
-Install Leiningen
+Install Leiningen: https://leiningen.org/
 
     $ lein run
 
@@ -13,7 +13,7 @@ Install Leiningen
 Generate a JAR, put on a OSGi container, or run it
 
     $ lein uberjar
-    $ java -jar irrigation-client-0.1.0-standalone.jar [args]
+    $ java -jar irrigation-client-0.1.0-standalone.jar
 
 ### TODO
 Develop the "server" side
