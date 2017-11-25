@@ -1,11 +1,16 @@
 (ns irrigation-client.core
   (:gen-class)
   (:require [clojurewerkz.machine-head.client :as mh]))
-(def ^:const topic-send-info "irrigathon-send")
-(def ^:const topic-receive-action "irrigathon-receive")
+(def ^:const topic-send-info "irrigathon/lonlat")
+(def ^:const topic-receive-action "irrigathon/action")
 (defn start-receive-action
   [conn]
   (mh/subscribe conn {topic-receive-action 0} (fn [^String topic _ ^bytes payload]
+                                   (println (String. payload "UTF-8"))))
+)
+(defn start-send-info
+  [conn]
+  (mh/subscribe conn {topic-send-info 0} (fn [^String topic _ ^bytes payload]
                                    (println (String. payload "UTF-8"))))
 )
 (defn -main
