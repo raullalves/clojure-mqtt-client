@@ -10,13 +10,13 @@ Install Leiningen
 
 ## Usage
 
-Put this jar on a OSGI container, or run it
+Generate a JAR, put on a OSGi container, or run it
 
+    $ lein uberjar
     $ java -jar irrigation-client-0.1.0-standalone.jar [args]
 
-### Any Other Sections
-### That You Think
-### Might be Useful
+### TODO
+Develop the "server" side
 
 ## License
 
