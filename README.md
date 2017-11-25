@@ -1,28 +1,17 @@
-# irrigation-client
+# clojure mqtt client
 
-FIXME: description
+Clojure MQTT client for hackaton
 
 ## Installation
 
-Download from http://example.com/FIXME.
+Install Leiningen
+    $ lein run
 
 ## Usage
 
-FIXME: explanation
+Put this jar on a OSGI container, or run it
 
     $ java -jar irrigation-client-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
 
 ### Any Other Sections
 ### That You Think
@@ -30,7 +19,7 @@ FIXME: listing of options this app accepts.
 
 ## License
 
-Copyright © 2017 FIXME
+Copyright © 2017
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
