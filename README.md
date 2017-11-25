@@ -4,7 +4,8 @@ Clojure MQTT client for hackaton
 
 ## Installation
 
-Install Leiningen: https://leiningen.org/<\br>
+Install Leiningen: https://leiningen.org/
+
 Install Mosquitto: https://mosquitto.org/
 
     $ lein run
